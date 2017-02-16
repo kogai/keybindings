@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "cmd+shift+d",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }, {
+    "key": "cmd+b",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorHasDefinitionProvider && editorTextFocus"
+    }, {
+      "key": "cmd+|",
+      "command": "workbench.action.toggleSidebarVisibility"
+    }
+]
